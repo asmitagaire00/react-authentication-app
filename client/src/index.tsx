@@ -1,8 +1,10 @@
 import { BrowserRouter as Router } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import ReactDOM from "react-dom/client";
 import App from "./components/App/App";
 
-import Auth0ProviderWithHistory from "./auth/auth0-provider-with-history";
+import Auth0ProviderWithHistory from "./Auth/Auth0ProviderWithHistory";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

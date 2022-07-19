@@ -6,7 +6,7 @@ const Signup = () => {
   return (
     <button
       className="btn btn-primary btn-block"
-      onClick={() => loginWithRedirect({ screen_hint: "Signup" })}
+      onClick={() => loginWithRedirect({ screen_hint: "signup" })}
     >
       Signup
     </button>

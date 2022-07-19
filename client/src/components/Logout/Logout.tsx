@@ -3,6 +3,7 @@ import "./Logout.css";
 
 const Logout = () => {
   const { logout } = useAuth0();
+
   return (
     <button
       className="btn btn-primary btn-block"

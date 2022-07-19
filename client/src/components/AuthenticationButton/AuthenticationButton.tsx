@@ -4,7 +4,8 @@ import Logout from "../Logout/Logout";
 
 const AuthenticationButton = () => {
   const { isAuthenticated } = useAuth0();
-  return isAuthenticated ? <Login /> : <Logout />;
+
+  return isAuthenticated ? <Logout /> : <Login />;
 };
 
 export default AuthenticationButton;
